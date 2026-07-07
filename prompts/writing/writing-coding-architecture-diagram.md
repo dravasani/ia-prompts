@@ -3,8 +3,8 @@ title: "Diagrama de arquitectura HTML desde múltiples proyectos"
 category: coding
 tags: [architecture, diagram, html, multi-repo, reverse-engineering]
 tools: [claude, cursor]
-author: ivan.loyarte
-version: 1.0.0
+author: Diego Ravasani
+version: 1.0.1
 last_updated: 2026-06-03
 ---
 
