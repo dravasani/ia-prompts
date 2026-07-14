@@ -101,9 +101,3 @@ Este repositorio está pensado para ser agnóstico de herramienta. Los prompts f
 - ChatGPT / OpenAI API
 - Agentes custom (LangChain, CrewAI, AutoGen, etc.)
 - Cualquier interfaz que acepte prompts de texto
-
----
-
-## Licencia
-
-Uso interno. Todos los derechos reservados.

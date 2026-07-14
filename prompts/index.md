@@ -14,7 +14,7 @@ Este índice centraliza todos los prompts disponibles en el repositorio. El obje
 | [Prompt Engineering Best Practices — System Prompt](#prompt-engineering-best-practices--system-prompt) | writing | [ver](writing/writing-meta-prompt.md) |
 | [Post-Mortem Incident Report Writer](#post-mortem-incident-report-writer) | writing | [ver](writing/writing-post-mortem.md) |
 | [Product Backlog Planner (Scrum Elements)](#product-backlog-planner-scrum-elements) | product | [ver](product/product-scrum-elements.md) |
-| [User Story Enricher (Jira)](#user-story-enricher-jira) | product | [ver](product/product-enrich-user-story.md) |
+| [User Story Enricher](#user-story-enricher) | product | [ver](product/product-enrich-user-story.md) |
 
 ---
 
@@ -108,18 +108,17 @@ la épica padre y las dependencias para generar ítems de backlog accionables y 
 
 ---
 
-### User Story Enricher (Jira)
+### User Story Enricher
 
-**Categoría:** product · **Versión:** 1.0.0 · **Autor:** Diego Ravasani · **Actualizado:** 2026-04-14
+**Categoría:** product · **Versión:** 2.0.0 · **Autor:** Diego Ravasani · **Actualizado:** 2026-07-14
 
-**Tags:** product, jira, user-stories, refinement, backlog, enrichment
+**Tags:** product, user-stories, refinement, backlog, enrichment
 
-**Descripción:** Analiza un ticket de Jira y determina si la historia de usuario cuenta con el nivel de detalle
-técnico y funcional necesario para que un desarrollador la complete de forma autónoma. Si detecta
-deficiencias, genera una versión mejorada que incluye descripción completa, endpoints, campos afectados,
-archivos a modificar, criterios de aceptación y requisitos no funcionales. Actualiza el ticket en Jira
-preservando el contenido original y marcando ambas versiones (`[original]` / `[enhanced]`), y opcionalmente
-mueve el ticket al estado "Pending refinement validation".
+**Descripción:** Analiza una historia de usuario (pasada como texto, ruta de archivo o link) y determina si
+cuenta con el nivel de detalle técnico y funcional necesario para que un desarrollador la complete de forma
+autónoma. Si detecta deficiencias, genera una versión mejorada que incluye descripción completa, endpoints,
+campos afectados, archivos a modificar, criterios de aceptación y requisitos no funcionales, preservando el
+contenido original y marcando ambas versiones (`[original]` / `[enhanced]`).
 
 📄 [product-enrich-user-story.md](product/product-enrich-user-story.md)
 
