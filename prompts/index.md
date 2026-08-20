@@ -13,6 +13,7 @@ Este índice centraliza todos los prompts disponibles en el repositorio. El obje
 | [Strategic Initiative Facilitator (Spark)](#strategic-initiative-facilitator-spark) | writing | [ver](writing/writing-initiative-insight.md) |
 | [Prompt Engineering Best Practices — System Prompt](#prompt-engineering-best-practices--system-prompt) | writing | [ver](writing/writing-meta-prompt.md) |
 | [Post-Mortem Incident Report Writer](#post-mortem-incident-report-writer) | writing | [ver](writing/writing-post-mortem.md) |
+| [Rava Notebook — Organizador de Notas y Registro en Google Calendar](#rava-notebook--organizador-de-notas-y-registro-en-google-calendar) | writing | [ver](writing/writing-google-calendar-note-taker.md) |
 | [Product Backlog Planner (Scrum Elements)](#product-backlog-planner-scrum-elements) | product | [ver](product/product-scrum-elements.md) |
 | [User Story Enricher](#user-story-enricher) | product | [ver](product/product-enrich-user-story.md) |
 
@@ -91,6 +92,23 @@ solución, detalle y plan de acción). Útil para documentar incidentes técnico
 facilitando el aprendizaje organizacional y la prevención de recurrencias.
 
 📄 [writing-post-mortem.md](writing/writing-post-mortem.md)
+
+---
+
+### Rava Notebook — Organizador de Notas y Registro en Google Calendar
+
+**Categoría:** writing · **Versión:** 1.0.0 · **Autor:** Diego Ravasani · **Actualizado:** 2026-08-20
+
+**Tags:** notes, calendar, google-calendar, google-docs, tasks, reminders
+
+**Descripción:** Toma información desordenada (texto, ideas sueltas, mensajes) y la transforma en notas
+claras, precisas y sin redundancias mediante un proceso iterativo de construcción. Detecta accionables
+y fechas clave, y al recibir la instrucción de registro adapta la nota consolidada al formato de salida
+correspondiente (evento de Google Calendar, tarea de Google Calendar o documento de Google Docs). Útil
+para capturar notas de reuniones o ideas sueltas y convertirlas en recordatorios o documentación lista
+para registrar.
+
+📄 [writing-google-calendar-note-taker.md](writing/writing-google-calendar-note-taker.md)
 
 ---
 
