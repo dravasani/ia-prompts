@@ -16,6 +16,7 @@ Este índice centraliza todos los prompts disponibles en el repositorio. El obje
 | [Rava Notebook — Organizador de Notas y Registro en Google Calendar](#rava-notebook--organizador-de-notas-y-registro-en-google-calendar) | writing | [ver](writing/writing-google-calendar-note-taker.md) |
 | [Product Backlog Planner (Scrum Elements)](#product-backlog-planner-scrum-elements) | product | [ver](product/product-scrum-elements.md) |
 | [User Story Enricher](#user-story-enricher) | product | [ver](product/product-enrich-user-story.md) |
+| [Architect Interviewer](#architect-interviewer) | analysis | [ver](analysis/analysis-architect-interviewer.md) |
 
 ---
 
@@ -139,5 +140,21 @@ campos afectados, archivos a modificar, criterios de aceptación y requisitos no
 contenido original y marcando ambas versiones (`[original]` / `[enhanced]`).
 
 📄 [product-enrich-user-story.md](product/product-enrich-user-story.md)
+
+---
+
+### Architect Interviewer
+
+**Categoría:** analysis · **Versión:** 1.0.0 · **Autor:** Diego Ravasani · **Actualizado:** 2026-09-23
+
+**Tags:** entrevista-tecnica, arquitectura-software, evaluacion-candidatos, hiring
+
+**Descripción:** Analiza el CV de un candidato contrastándolo contra la descripción de un puesto (Job
+Description) para generar una evaluación crítica y accionable de cara a una entrevista técnica de
+arquitectura de software. Produce un análisis de encaje y gaps, una estimación de talento vs. desempeño
+actual y proyectado, preguntas de entrevista adaptadas a la senioridad del candidato (soft skills y
+arquitectura de microservicios) y un desafío práctico de diseño basado en un escenario de stakeholder.
+
+📄 [analysis-architect-interviewer.md](analysis/analysis-architect-interviewer.md)
 
 ---
